@@ -18,13 +18,13 @@ if sys.version_info >= (3,):
     extra['use_2to3'] = True
 
 setup(
-    name="pydicom",
+    name="m3d-pydicom",
     packages=find_packages(),
     include_package_data=True,
     version="0.9.9",
     package_data={'dicom': ['testfiles/*.dcm']},
     zip_safe=False,  # want users to be able to see included examples,tests
-    description="Pure python package for DICOM medical file reading and writing",
+    description="Mobius internal fork of pydicom at ver:0.9.9",
     author="Darcy Mason and contributors",
     author_email="darcymason@gmail.com",
     url="http://pydicom.googlecode.com",
